@@ -1,52 +1,52 @@
 # API-Rate-Limiter
 📌 Project Description
 
-The Parking Lot Management System is a console-based application developed in C that helps manage vehicle parking operations efficiently. The system allows users to assign parking slots, search vehicle records, generate parking tickets, and manage entry and exit details. It uses file handling and dynamic memory allocation to store and retrieve parking data.
+This project is a REST API-based cybersecurity system developed using Python and Flask. The API allows users or applications to send input data such as URLs, login attempts, or file characteristics, and receive AI-based security predictions in response. The system helps detect cyber threats like phishing attacks or suspicious activities.
 
-This project demonstrates concepts of structures, modular programming, arrays, strings, and file management in C.
+The trained Machine Learning model is integrated into a cloud-hosted API service to enable real-time threat analysis.
 
 ⭐ Features
 
-User login authentication
+REST API for threat prediction
 
-Parking slot allocation
+AI model integration
 
-Vehicle record search
+JSON request and response handling
 
-Ticket generation system
+Real-time cybersecurity analysis
 
-File-based data storage
-
-Modular code structure
+Cloud deployment support
 
 🛠️ Tech Stack
 
-C Programming
+Python
 
-File Handling
+Flask
 
-Structures
+Machine Learning (Scikit-learn)
 
-Dynamic Memory Allocation
+Joblib
 
-🔄 Project Workflow
+Cloud Hosting (Render / AWS)
 
-User logs into the system
+🔄 API Workflow
 
-Parking slot is assigned to vehicle
+Client sends POST request with input data
 
-Vehicle details are stored in file
+API processes request using trained AI model
 
-Records can be searched anytime
+Prediction result is returned in JSON format
 
-Ticket is generated during exit
+System can be integrated with web or mobile apps
 
 🚀 Future Improvements
 
-GUI interface
+Authentication using API keys
 
-Online parking booking system
+Rate limiting
 
-Database integration
+Real-time database logging
 
-Cloud deployment
+Advanced threat scoring
+
+Frontend dashboard integration
